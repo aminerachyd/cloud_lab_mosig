@@ -34,7 +34,7 @@ We can choose to manually scale some services, for instance the gateway service 
 
 ## Monitoring dashboard
 
-The prometheus/grafana dashboard that is generated with the ode doesn't seem to be working. It requires a bit of setup (installing some CRDs, modifying some RBAC rules) and it doesn't provide any data after the installation:
+The prometheus/grafana dashboard that is generated with the code doesn't seem to be working. It requires a bit of setup (installing some CRDs, modifying some RBAC rules) and it doesn't provide any data after the installation:
 
 ![JHipster metrics](/images/6.png)
 
@@ -52,7 +52,7 @@ But we can also use the GKE monitoring dashboard
 
 ## Load injection with Gatling for demonstrating scalability
 
-For this part we will test load injection on the Gateway, we create an autoscaler (HPA) for the gateway service that ranges from 1 to 10 replicas, and an autoscaler for the gateway's database taht ranges from 1 to 3 replicas
+For this part we will test load injection on the Gateway, we create an autoscaler (HPA) for the gateway service that ranges from 1 to 10 replicas, and an autoscaler for the gateway's database that ranges from 1 to 3 replicas
 
 ![HPA gateway](/images/9.png)
 
