@@ -1,0 +1,14 @@
+<testsuite name="gatling.test.example.simulation.ExampleGetSimulation" tests="4" errors="0" failures="4" time="0">
+<testcase name="Global: max of response time is less than 2000.0" status="false" time="0">
+  <failure type="Global">Actual value: 60001.0</failure>
+</testcase>
+<testcase name="Global: mean of response time is less than 500.0" status="false" time="0">
+  <failure type="Global">Actual value: 6642.0</failure>
+</testcase>
+<testcase name="Global: 95th percentile of response time is less than 250.0" status="false" time="0">
+  <failure type="Global">Actual value: 10004.0</failure>
+</testcase>
+<testcase name="Global: percentage of successful events is greater than 95.0" status="false" time="0">
+  <failure type="Global">Actual value: 51.03</failure>
+</testcase>
+</testsuite>
